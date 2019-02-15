@@ -1,0 +1,208 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: url("/FIFA/imagenes/fondo.jpg");
+}
+
+.buscar{
+  position: absolute;
+  top: auto;
+  width: 1920px;
+  height: 60px;
+  background:#353B42 ;
+  font-weight: 120%;
+  font-size: 120%;
+  opacity: 0.8;
+}
+.buscar input[type="search"]{
+  position: absolute;
+  left: 1%;
+  top: 13%;
+  background: none;
+  text-align: center;
+  border: 2px solid #3498db;
+  padding: 6px;
+  width: 280px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+
+.buscar input[type="search"]:focus{
+  width: 280px;
+  border-color: #2ecc71;
+}
+.boton{
+  position: absolute;
+  left: 16%;
+  top: 13%;
+  background: none;
+  display: block;
+  text-align: center;
+  border: 2px solid yellow;
+  padding: 6px;;
+  width: 100px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+.boton:hover{
+  background: green;
+}
+
+.mennu{
+  width: 1400px;
+  padding: 220px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #353B42  ;
+  text-align: center;
+  opacity: 0.8;
+}
+.liga{
+  position: absolute;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.equipo{
+  position: absolute;
+  top: 25%;
+  left: 73%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.fifa{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.liga h1{
+  color: orange;
+  position:absolute;
+  top: 112%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #353B42;
+  opacity: 0.8;
+  font-weight: 200%;
+  font-size: 280%;
+}
+.equipo h2{
+  color: orange;
+  position:absolute;
+  top: 112%;
+  left: 62%;
+  transform: translate(-50%,-50%);
+  background: #353B42;
+  opacity: 0.8;
+  font-weight: 200%;
+  font-size: 280%;
+}
+
+.alemania{
+  position: absolute;
+  top: 61%;
+  left: 21%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.españa{
+  position: absolute;
+  top: 61%;
+  left: 31%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.francia{
+  position: absolute;
+  top: 61%;
+  left: 41%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.italia{
+  position: absolute;
+  top: 61%;
+  left: 51%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.inglaterra{
+  position: absolute;
+  top: 61%;
+  left: 61%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.holanda{
+  position: absolute;
+  top: 61%;
+  left: 71%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.portugal{
+  position: absolute;
+  top: 61%;
+  left: 81%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.champions
+{
+  position: absolute;
+  top: 79.5%;
+  left: 26%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.euroleague
+{
+  position: absolute;
+  top: 79.5%;
+  left: 36%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.mundial
+{
+  position: absolute;
+  top: 79.5%;
+  left: 46%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.america
+{
+  position: absolute;
+  top: 79.5%;
+  left: 56%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.europa
+{
+  position: absolute;
+  top: 79.5%;
+  left: 66%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+.confederaciones
+{
+  position: absolute;
+  top: 79.5%;
+  left: 76%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
